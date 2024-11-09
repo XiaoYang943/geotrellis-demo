@@ -11,6 +11,7 @@
     <modules>
         <module>demo-001-hello-world</module>
         <module>demo-010-ingest-raster-layer</module>
+        <module>demo-020-raster-query</module>
     </modules>
 
     <properties>
@@ -62,6 +63,11 @@
         <dependency>
             <groupId>org.locationtech.geotrellis</groupId>
             <artifactId>geotrellis-util_2.13</artifactId>
+            <version>${geotrellis.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.locationtech.geotrellis</groupId>
+            <artifactId>geotrellis-vector_2.13</artifactId>
             <version>${geotrellis.version}</version>
         </dependency>
 

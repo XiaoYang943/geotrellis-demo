@@ -1,5 +1,3 @@
-
-import geotrellis.raster.io.geotiff.reader.GeoTiffReader
 import geotrellis.raster.io.geotiff.{GeoTiffReader, SinglebandGeoTiff}
 
 object ReadSingleBandTifByFileSystem {
