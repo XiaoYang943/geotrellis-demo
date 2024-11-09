@@ -2,7 +2,7 @@ import geotrellis.proj4.{CRS, LatLng}
 import geotrellis.raster.io.geotiff.{GeoTiffReader, SinglebandGeoTiff}
 import geotrellis.vector.{Point, ReprojectPoint}
 
-object QueryByPoint {
+object QueryValueByPoint {
 
   def main(args: Array[String]): Unit = {
     val path: String = "D:\\data\\raster\\geotiff\\dem12.5m\\陕西\\huashan_dem_4490.tif"
