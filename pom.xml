@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>demo-001-hello-world</module>
+        <module>demo-010-ingest-raster-layer</module>
     </modules>
 
     <properties>
@@ -18,6 +19,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <geotrellis.version>3.7.1</geotrellis.version>
         <scala.version>2.13.14</scala.version>
+        <spark.version>3.5.3</spark.version>
     </properties>
 
     <repositories>
@@ -61,6 +63,12 @@
             <groupId>org.locationtech.geotrellis</groupId>
             <artifactId>geotrellis-util_2.13</artifactId>
             <version>${geotrellis.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-core_2.13</artifactId>
+            <version>${spark.version}</version>
         </dependency>
     </dependencies>
 

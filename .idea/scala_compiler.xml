@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaCompilerConfiguration">
-    <profile name="Maven 1" modules="demo-001-hello-world,demo001-hello-world,geotrellis-demo">
+    <profile name="Maven 1" modules="demo-001-hello-world,demo-010-ingest-raster-layer,demo001-hello-world,geotrellis-demo">
       <parameters>
         <parameter value="-target:jvm-1.8" />
       </parameters>
