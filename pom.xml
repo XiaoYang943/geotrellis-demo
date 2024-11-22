@@ -72,6 +72,12 @@
         </dependency>
 
         <dependency>
+            <groupId>org.locationtech.geotrellis</groupId>
+            <artifactId>geotrellis-gdal_2.13</artifactId>
+            <version>${geotrellis.version}</version>
+        </dependency>
+
+        <dependency>
             <groupId>org.apache.spark</groupId>
             <artifactId>spark-core_2.13</artifactId>
             <version>${spark.version}</version>
